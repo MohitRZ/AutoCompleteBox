@@ -39,12 +39,12 @@ import com.google.appinventor.components.runtime.util.YailList;
     description = "by ColinTree at http://aix.colintree.cn",
     category = ComponentCategory.EXTENSION,
     nonVisible = true,
-    iconName = "data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADQSURBVDhP7ZGxCsIwFEVvtN36Ec4uRejg0KxKv8Df8hMEcRIEp0ARO7Tg5CSI/2EFaZvGvhg7lpSuHnjkvoR3SW4YGoQQqoFkC2P6qJMoihiL41gF QWC2gLKUcN2x6bpJkgQjEs/XG5vjFevdBYfzHVJKqyK0gTNSWC2mqGuJ5XyCoiisqjUYQmuwPz1QN+tW3FBVlVUROkTfn+mmDxQ0hcjSNFV5npttezzPA+f8+9dk0heaoVlHOxiyLDOqmzAMjTIMuYF+w6/pyz8DyoCzDwHVcTaFB3CDAAAAAElFTkSuQmCCggBJRU5ErkJgggBJRU5ErkJggg==")
+    iconName = "aiwebres/icon.png")
 
 @SimpleObject(external = true)
 
 public class AutoCompleteBox extends AndroidNonvisibleComponent implements Component {
-    public static final int VERSION = 1;
+    public static final int VERSION = 2;
     private ComponentContainer container;
     private Context context;
     private static final String LOG_TAG = "AutoCompleteBox";
