@@ -126,7 +126,7 @@ public class AutoCompleteBox extends AndroidNonvisibleComponent implements Compo
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-            if (adapter == null) {
+            if (adapter == null || s.length() == 0) {
                 return;
             }
             adapter.getFilter().filter(s);
