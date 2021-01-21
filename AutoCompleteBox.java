@@ -36,7 +36,7 @@ import com.google.appinventor.components.runtime.util.YailList;
 
 
 @DesignerComponent(version = AutoCompleteBox.VERSION,
-    description = "by ColinTree at http://aix.colintree.cn",
+    description = "By Mohit_R_Z ",
     category = ComponentCategory.EXTENSION,
     nonVisible = true,
     iconName = "aiwebres/icon.png")
@@ -44,7 +44,7 @@ import com.google.appinventor.components.runtime.util.YailList;
 @SimpleObject(external = true)
 
 public class AutoCompleteBox extends AndroidNonvisibleComponent implements Component {
-    public static final int VERSION = 2;
+    public static final int VERSION = 5;
     private ComponentContainer container;
     private Context context;
     private static final String LOG_TAG = "AutoCompleteBox";
